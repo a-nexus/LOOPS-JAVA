@@ -121,16 +121,97 @@
 
 //THEN BY THE HELP OF WHILE LOOP
 
-import java.util.*;
-public class Entrycontrolled{
-    public static void main(String [] args){
-        System.out.print("ENTER THE NUMBER WHICH YOU WANT TO PRINT THE TABLE:");
-        Scanner sc=new Scanner(System.in);
-        int num=sc.nextInt();
-        int i=1;
-        while(i<=10){
-            System.out.println(num*i);
-            i++;
-        }
-    }
-}
+// import java.util.*;
+// public class Entrycontrolled{
+//     public static void main(String [] args){
+//         System.out.print("ENTER THE NUMBER WHICH YOU WANT TO PRINT THE TABLE:");
+//         Scanner sc=new Scanner(System.in);
+//         int num=sc.nextInt();
+//         int i=1;
+//         while(i<=10){
+//             System.out.println(num*i);
+//             i++;
+//         }
+//     }
+// }
+
+//EXTRA QUESTIONS
+//Print all even numbers till n. 
+
+// import java.util.*;
+// public class Entrycontrolled{
+//     public static void main(String [] args){
+//        Scanner sc=new Scanner(System.in);
+//        System.out.print("enter where you have to start the checking and countion of even number:");
+//        int num1=sc.nextInt();
+//        System.out.print("ENTER WHERE YOU HAVE TO STOP:");
+//        int num2=sc.nextInt();
+
+//        for(int i=num1;i<=num2;i++){
+//         if(i%2==0){
+//             System.out.print(i+"\t");
+//         }
+//        }
+//     }
+// }
+
+
+//NEXT EXAMPLE 
+// I HAVE A QUERY OF WORKING A PROGRAM IF I DONT WRITE THE INITIALIZATION ALSO CONDITION AND ALSO UPGRADATION WHAT WILL HAPPEN IN THE PROGRAM
+
+// import java.util.*;
+// public class Entrycontrolled{
+//     public static void main(String[] args){
+//         for(; ;){
+//             System.out.println("Hello World!");
+//         }
+//     }
+// }
+
+// IN THAT CONDITION WE SAW IF WE DONT WRITE THE COUNDITION THEN THE LOOP RUN INFINATLY TIME AND IT WILL INFINITE TIME PRINT HELLO WORLD
+
+//NEXT EXAMPLE
+
+// Make a menu driven program. The user can enter 2 numbers, either 1 or 0.  
+// If the user enters 1 then keep taking input from the user for a student’s 
+// marks(out of 100).  
+// If they enter 0 then stop. 
+// If he/ she scores : 
+// Marks >=90 -> print “This is Good” 
+// 89 >= Marks >= 60 -> print “This is also Good” 
+// 59 >= Marks >= 0 -> print “This is Good as well” 
+// Because marks don’t matter but our effort does.
+
+
+// import java.util.*;
+
+
+// public class Entrycontrolled{
+//     public static void main(String[] args){
+//         Scanner sc=new Scanner(System.in);
+//        int choice;
+//              do{
+//                  System.out.print("ENTER YOUR CHOOSE 1 AND 0:");
+//           choice=sc.nextInt();
+//                 if(choice==1){
+//                     System.out.print("ENTER YOUR MARKS:");
+//                     int marks=sc.nextInt();
+
+//              if(marks<=100 && marks>=90){
+//                 System.out.println("This is Good");
+
+//                 }else if(marks<90 && marks>=60){
+//                     System.out.println("this is also good");
+//                 }else if(marks<60 && marks>=0){
+//                     System.out.print("this is good as well");
+//                 }else{
+//                     System.out.println("Invalid Marks");
+//                 }
+
+//         }
+//     }while(choice==0);
+//     System.out.println("Thank you");
+//     sc.close();
+// }
+// }
+
