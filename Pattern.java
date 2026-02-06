@@ -124,21 +124,63 @@
 //NEXT QUESTION
 //PRINT THE PATTERN INVERTED HALF PYRAMID WITH NUMBER
 
+// import java.util.*;
+
+
+
+
+// public class Pattern{
+//     public static void main(String[] args){
+//         Scanner sc=new Scanner (System.in);
+//         System.out.print("ENTER HOW MANY ROW YOU WANT:");
+//         int row=sc.nextInt();
+//         for(int i=row;i>=1;i--){
+//             for(int j=1;j<=i;j++){
+//                 System.out.print(j+" ");
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
+
+
+// NEXT QUESTION
+//PRINT THE PATTERN FLOYD'S TRANGLE
+
+// import java.util.*;
+// public class Pattern{
+//     public static void main(String[] args){
+//         Scanner sc=new Scanner(System.in);
+//         System.out.print("INTER THE NUMBER OF ROW:");
+//         int row=sc.nextInt();
+//         int x=1;
+//         for(int i=1;i<=row;i++){
+//             for(int j=1;j<=i;j++){
+//                 System.out.print(x+" ");
+//                 x++;
+//             }System.out.println();
+//         }
+//     }
+// }
+
+//NEXT QUESTION 
+//PRINT THE PATTERN 0-1 TRIANGLE
+
 import java.util.*;
-
-
-
-
 public class Pattern{
     public static void main(String[] args){
-        Scanner sc=new Scanner (System.in);
-        System.out.print("ENTER HOW MANY ROW YOU WANT:");
-        int row=sc.nextInt();
-        for(int i=row;i>=1;i--){
+        Scanner sc=new Scanner(System.in);
+        System.out.print("ENTER HOW MANY ROWS YOU WANT:");
+        int num=sc.nextInt();
+           for(int i=1;i<=num;i++){
             for(int j=1;j<=i;j++){
-                System.out.print(j+" ");
-            }
-            System.out.println();
-        }
+                int sum=i+j;
+                if(sum%2==0){
+                    System.out.print("1 ");
+                }else{
+                    System.out.print("0 ");
+                }
+            }System.out.println();
+           }
     }
 }
